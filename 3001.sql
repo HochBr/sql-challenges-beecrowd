@@ -1,3 +1,5 @@
+-- Claro que o ideal seria dar um UPDATE com o CASE, 
+-- entretanto assim podemos combrar toda a vez que o Zé Maria precisar ver os preços ;)
 SELECT 
     p.name,
     CASE

@@ -1,1 +1,1 @@
-# sql-challenges-beecrowd
+# SQL Challenges Beecrowd

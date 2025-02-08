@@ -45,7 +45,7 @@ cte_ultimos AS (
     LIMIT 1
 ),
   
-cte_penultimo AS (
+cte_penultimo AS ( -- Lembre de ler a CTE de baixo para cima
     SELECT 'Demoted: ' || team AS name
     FROM league
     WHERE position = (SELECT MAX(position) 
